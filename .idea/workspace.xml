@@ -10,15 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a919ecad-3fac-438d-a488-ecf4699eb25e" name="Default Changelist" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/functions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/navigation.php" afterDir="false" />
+    <list default="true" id="a919ecad-3fac-438d-a488-ecf4699eb25e" name="Default Changelist" comment="Seperated navigation into seperate files&#10;Added main css file and js function file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/Registration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/head.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/DB.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/DB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/config.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +80,7 @@
       <workItem from="1604402812089" duration="1329000" />
       <workItem from="1604418861815" duration="5244000" />
       <workItem from="1604469230817" duration="2549000" />
-      <workItem from="1604581127701" duration="2519000" />
+      <workItem from="1604581127701" duration="16722000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1604403453537</created>
@@ -98,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604424007939</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Seperated navigation into seperate files&#10;Added main css file and js function file">
+      <created>1604583764277</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604583764277</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,7 +123,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Seperated navigation into seperate files&#10;Added main css file and js function file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Seperated navigation into seperate files&#10;Added main css file and js function file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="667" y="162" key="#PHP" timestamp="1604403165445">
@@ -153,9 +159,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1604581411729" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604582321986">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604583776165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1604582321986" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1604583776165" />
   </component>
 </project>

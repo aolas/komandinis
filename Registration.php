@@ -1,5 +1,7 @@
 <?php
 define('__CONFIG__', true);
+
+require_once "includes/config.php";
 ?>
 <html>
     <head>
@@ -11,8 +13,8 @@ define('__CONFIG__', true);
         <h2>Registration</h2>
         <form>
             <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <label for="InputEmail1">Email address</label>
+                <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
             
             </div>
             <div class="form-group">
@@ -26,6 +28,5 @@ define('__CONFIG__', true);
         </form>
     </div>
     <?php require_once "includes/footer.php"; ?>
-
     </body>
 </html>
