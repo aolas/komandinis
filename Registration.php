@@ -15,12 +15,9 @@ require_once "includes/config.php";
             <div class="form-group">
                 <label for="InputEmail">Email address</label>
                 <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp">
-                <div  class="invalid-feedback invalid-email">
-                    Not valid email.
-                </div>
-                <div  class="invalid-feedback alreadyInUse-email">
-                    This email already exist.
-                </div>
+            </div>
+            <div  class="invalid-feedback emailAlreadyInUse">
+                This email already exist.
             </div>
             <div class="form-group">
                 <label for="passwordImput">Password</label>

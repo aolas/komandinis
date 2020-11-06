@@ -56,24 +56,45 @@ $doc.on("submit", "form.js-register",function(event){
     $form = $(this);
     $errorText = $(".invalid-password",$form);
     $inputEmail = $("#InputEmail",$form);
-    $invalidEmail = $(".invalid-email",$form);
+    //$invalidEmail = $(".invalid-email",$form);
     if (ValidateEmail($inputEmail.val())){
-        $invalidEmail.removeClass("showError")
-    }else{
-        $invalidEmail.addClass("showError");
-    }
+        if ($pInput.val().localeCompare($confirmPInput.val()) == 0 && $pInput.val().length > 7 ){
+            $errorText.removeClass("showError");
+            var data = {
+                email: $("input[type='email']", $form).val(),
+                password: $pInput.val()
+            };
 
+        } else{
 
-    if ($pInput.val().localeCompare($confirmPInput.val()) == 0 && $pInput.val().length > 7 ){
-        $errorText.removeClass("showError");
-        var data = {
-            email: $("input[type='email']", $form).val(),
-            password: $pInput.val()
+            $errorText.addClass("showError");
+            return false;
         }
 
     } else{
-        $errorText.addClass("showError");
+        return false;
     }
+
+
+
+    $.ajax({
+        type:'POST',
+        url:'/ajax/register.php',
+        data:data,
+        dataType:'json',
+        async:true
+    })
+
+        .done(function ajaxDone(data){
+            console.log(data);
+        })
+        .fail(function ajaxFailed(e){
+            console.log(e);
+        })
+        .always(function ajaxAlwaysDiThis(data){
+            console.log(data);
+        });
+
 
     return false;
 });
