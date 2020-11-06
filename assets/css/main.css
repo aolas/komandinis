@@ -20,3 +20,7 @@
 .registration{
     margin-top: 5em;
 }
+.showError{
+    display: block;
+    margin-bottom: 1em;
+}

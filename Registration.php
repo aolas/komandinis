@@ -11,11 +11,16 @@ require_once "includes/config.php";
     <?php require_once "includes/navigation.php"; ?>
     <div class="container registration">
         <h2>Registration</h2>
-        <form>
+        <form class="js-register">
             <div class="form-group">
-                <label for="InputEmail1">Email address</label>
-                <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
-            
+                <label for="InputEmail">Email address</label>
+                <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp">
+                <div  class="invalid-feedback invalid-email">
+                    Not valid email.
+                </div>
+                <div  class="invalid-feedback alreadyInUse-email">
+                    This email already exist.
+                </div>
             </div>
             <div class="form-group">
                 <label for="passwordImput">Password</label>
@@ -24,6 +29,10 @@ require_once "includes/config.php";
                 <label for="confirmPasswordImput">Confirm password</label>
                 <input type="password" class="form-control" id="confirmPasswordImput">
             </div>
+            <div  class="invalid-feedback invalid-password">
+                Not valid password.
+            </div>
+
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </div>
