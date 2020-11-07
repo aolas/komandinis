@@ -26,7 +26,6 @@ $pInput.change(function() {
         $pInput.addClass("is-invalid");
     }
 
-    //console.log($pInput.val().length>7);
 
 });
 
@@ -86,22 +85,22 @@ $doc.on("submit", "form.js-register",function(event){
         async:true
     })
         .done(function ajaxDone(data){
-            console.log(data);
             if (data.redirect !== undefined){
-
+                document.location= data.redirect;
             } else if (data.error != undefined){
-                $srvError =  $("server-error")
+                $srvError =  $(".server-error")
                 $srvError.text(data.error);
                 $srvError.addClass("showError");
-                console.log(data.error);
-
             }
         })
         .fail(function ajaxFailed(e){
-            console.log(e);
+            //on connection error
+            $srvError =  $(".server-error")
+            $srvError.text("Connectio error");
+            $srvError.addClass("showError");
         })
         .always(function ajaxAlwaysDiThis(data){
-            console.log(data);
+
         });
 
 
