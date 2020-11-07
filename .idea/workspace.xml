@@ -10,11 +10,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a919ecad-3fac-438d-a488-ecf4699eb25e" name="Default Changelist" comment="Added On submit validation">
+    <list default="true" id="a919ecad-3fac-438d-a488-ecf4699eb25e" name="Default Changelist" comment="Added ajax registration call">
+      <change afterPath="$PROJECT_DIR$/ajax/register.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/Registration.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/head.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/navigation.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +39,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1jmD3wLtpotSBoBzSOOMthYZdzP" />
   <component name="ProjectViewState">
@@ -45,6 +55,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="PHP Script.Index.php">
@@ -80,7 +91,8 @@
       <workItem from="1604469230817" duration="2549000" />
       <workItem from="1604581127701" duration="16956000" />
       <workItem from="1604643302220" duration="9983000" />
-      <workItem from="1604691869081" duration="3400000" />
+      <workItem from="1604691869081" duration="3835000" />
+      <workItem from="1604728324395" duration="10616000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1604403453537</created>
@@ -117,7 +129,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604652836319</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added ajax registration call">
+      <created>1604695565459</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604695565459</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added ajax registration call">
+      <created>1604695706509</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604695706509</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +166,8 @@
     <MESSAGE value="Seperated navigation into seperate files&#10;Added main css file and js function file" />
     <MESSAGE value="Added frontend form validation" />
     <MESSAGE value="Added On submit validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added On submit validation" />
+    <MESSAGE value="Added ajax registration call" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added ajax registration call" />
   </component>
   <component name="WindowStateProjectService">
     <state x="667" y="162" key="#PHP" timestamp="1604403165445">
@@ -171,13 +198,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1604607869994" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1604581411729">
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1604728422684">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1604581411729" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604654031267">
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1604728422684" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1604729173037">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1604654031267" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1604729173037" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604695726279">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1604695726279" />
   </component>
 </project>

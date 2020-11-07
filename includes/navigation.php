@@ -1,5 +1,7 @@
 <?php
-    require_once "includes/config.php";
+if(!defined('__CONFIG__')) {
+    exit('You do not have a config file');
+}
 ?>
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <a class="navbar-brand" href="#">Komandinis</a>

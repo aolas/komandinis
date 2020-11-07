@@ -4,7 +4,11 @@
     }
 
     //connect to database
-    include_once "database/DB.php";
+    include_once "../database/DB.php";
 
     $con = DB::getConnection();
+    //Hash bcrypto settings
+    $hashOptions = [
+        'cost' => 12,
+    ];
 ?>

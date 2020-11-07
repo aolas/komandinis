@@ -1,7 +1,7 @@
 <?php
 define('__CONFIG__', true);
 
-require_once "includes/config.php";
+
 ?>
 <html>
     <head>
@@ -16,15 +16,16 @@ require_once "includes/config.php";
                 <label for="InputEmail">Email address</label>
                 <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp">
             </div>
-            <div  class="invalid-feedback emailAlreadyInUse">
-                This email already exist.
-            </div>
+
             <div class="form-group">
                 <label for="passwordImput">Password</label>
                 <input type="password" class="form-control" id="passwordImput">
                 <small id="passwordHelp" class="form-text text-muted">Must be 8-20 characters long</small>
                 <label for="confirmPasswordImput">Confirm password</label>
                 <input type="password" class="form-control" id="confirmPasswordImput">
+            </div>
+            <div  class="invalid-feedback server-error">
+                This email already exist.
             </div>
             <div  class="invalid-feedback invalid-password">
                 Not valid password.

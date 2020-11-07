@@ -1,5 +1,7 @@
 <?php
-    require_once "includes/config.php";
+if(!defined('__CONFIG__')) {
+    exit('You do not have a config file');
+}
 ?>
 
     <meta charset="utf-8">

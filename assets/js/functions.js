@@ -2,6 +2,7 @@
 $pInput = $("#passwordImput"); //password
 $confirmPInput = $("#confirmPasswordImput"); // comfir password
 $doc = $(document);
+
 function ValidateEmail(inputText)
 {
     var mailformat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
@@ -79,14 +80,22 @@ $doc.on("submit", "form.js-register",function(event){
 
     $.ajax({
         type:'POST',
-        url:'/ajax/register.php',
+        url:'/komandinis/ajax/register.php',
         data:data,
         dataType:'json',
         async:true
     })
-
         .done(function ajaxDone(data){
             console.log(data);
+            if (data.redirect !== undefined){
+
+            } else if (data.error != undefined){
+                $srvError =  $("server-error")
+                $srvError.text(data.error);
+                $srvError.addClass("showError");
+                console.log(data.error);
+
+            }
         })
         .fail(function ajaxFailed(e){
             console.log(e);
