@@ -10,12 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a919ecad-3fac-438d-a488-ecf4699eb25e" name="Default Changelist" comment="Added email and password backend validation">
+    <list default="true" id="a919ecad-3fac-438d-a488-ecf4699eb25e" name="Default Changelist" comment="Added theme style &#10;TODO navba logotip">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/Registration.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/navigation.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +89,8 @@
       <workItem from="1604691869081" duration="3835000" />
       <workItem from="1604728324395" duration="12876000" />
       <workItem from="1604776653149" duration="2520000" />
-      <workItem from="1604813128991" duration="7202000" />
+      <workItem from="1604813128991" duration="7954000" />
+      <workItem from="1604864513350" duration="1626000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1604403453537</created>
@@ -157,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604743608547</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added theme style &#10;TODO navba logotip">
+      <created>1604824492416</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604824492416</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +188,8 @@
     <MESSAGE value="Added ajax registration call" />
     <MESSAGE value="Added back end function to store registered users in the database" />
     <MESSAGE value="Added email and password backend validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added email and password backend validation" />
+    <MESSAGE value="Added theme style &#10;TODO navba logotip" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added theme style &#10;TODO navba logotip" />
   </component>
   <component name="WindowStateProjectService">
     <state x="667" y="162" key="#PHP" timestamp="1604403165445">
@@ -230,9 +236,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1604729173037" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604743619911">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604824502243">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1604743619911" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1604824502243" />
   </component>
 </project>

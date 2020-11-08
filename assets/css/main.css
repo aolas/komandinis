@@ -19,6 +19,15 @@
 html,body {
     background-color: #5f6265;
 }
+.position-absolute{
+    position: absolute;
+}
+.position-relative{
+    position: relative;
+}
+.img-80{
+    height: 80px;
+}
 .main-wraper{
     background-color: #f0f1f2;
     padding-bottom: 3em;

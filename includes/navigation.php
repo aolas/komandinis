@@ -4,9 +4,9 @@ if(!defined('__CONFIG__')) {
 }
 ?>
 <nav class="navbar navbar-expand-lg main-nav-bar">-->
-    <div class="d-flex flex-grow-1">
+    <div class="d-flex flex-grow-1 position-absolute">
         <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
-        <a class="navbar-brand" href="#">Komandinis</a>
+        <a class="navbar-brand position-relative" href="#"><img src="./assets/img/logo.png" class="img-80"></a>
         <div class="w-100 text-right">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar7">
                 <span class="navbar-toggler-icon"></span>
