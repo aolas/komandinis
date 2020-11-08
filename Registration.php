@@ -8,9 +8,10 @@ define('__CONFIG__', true);
         <?php require_once "includes/head.php"; ?>
     </head>
     <body>
-    <?php require_once "includes/navigation.php"; ?>
-    <div class="container registration">
-        <h2>Registration</h2>
+
+    <div class="container main-wraper main-container">
+        <?php require_once "includes/navigation.php"; ?>
+        <h2 class="text-center registration">Registration</h2>
         <form class="js-register">
             <div class="form-group">
                 <label for="InputEmail">Email address</label>

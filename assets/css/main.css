@@ -13,13 +13,36 @@
         font-size: 3.5rem;
     }
 }
+/******************/
+/**Template style**/
+/******************/
+html,body {
+    background-color: #5f6265;
+}
+.main-wraper{
+    background-color: #f0f1f2;
+    padding-bottom: 3em;
+}
+.main-container{
+    margin-top: 5em;
+    padding-top: 2em;
+}
+footer{
+    background-color: #f0f1f2;
+    padding: 1em;
+}
+.collapse .nav-item .nav-link{
+    color: #01cd74;
+}
+.main-nav-bar{
+    background-color:  #030303!important;
 
+    margin-bottom: 2em;
+}
 /*******************/
 /** Registration***/
 /*******************/
-.registration{
-    margin-top: 5em;
-}
+
 .showError{
     display: block;
     margin-bottom: 1em;
