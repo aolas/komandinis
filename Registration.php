@@ -21,7 +21,7 @@ define('__CONFIG__', true);
             <div class="form-group">
                 <label for="passwordImput">Password</label>
                 <input type="password" class="form-control" id="passwordImput">
-                <small id="passwordHelp" class="form-text text-muted">Must be 8-20 characters long</small>
+                <small id="passwordHelp" class="form-text text-muted">Must be at least 8 characters long</small>
                 <label for="confirmPasswordImput">Confirm password</label>
                 <input type="password" class="form-control" id="confirmPasswordImput">
             </div>
