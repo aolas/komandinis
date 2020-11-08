@@ -48,6 +48,14 @@ footer{
 
     margin-bottom: 2em;
 }
+.submit-btn{
+    background-color: #ff4e00;
+    color: #fff;
+    padding: 5px 1em 5px 1em;
+}
+.submit-btn:hover{
+    color: #fff;
+}
 /*******************/
 /** Registration***/
 /*******************/

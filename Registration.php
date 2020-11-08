@@ -32,7 +32,7 @@ define('__CONFIG__', true);
                 Not valid password.
             </div>
 
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn submit-btn">Submit</button>
         </form>
     </div>
     <?php require_once "includes/footer.php"; ?>
