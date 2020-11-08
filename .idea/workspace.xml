@@ -10,10 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a919ecad-3fac-438d-a488-ecf4699eb25e" name="Default Changelist" comment="Added theme style &#10;TODO navba logotip">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a919ecad-3fac-438d-a488-ecf4699eb25e" name="Default Changelist" comment="Addd button style">
       <change beforePath="$PROJECT_DIR$/Registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/Registration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +89,7 @@
       <workItem from="1604776653149" duration="2520000" />
       <workItem from="1604813128991" duration="7954000" />
       <workItem from="1604864513350" duration="1751000" />
-      <workItem from="1604866937696" duration="668000" />
+      <workItem from="1604866937696" duration="1004000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1604403453537</created>
@@ -170,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604866769287</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Addd button style">
+      <created>1604867629087</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604867629087</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +203,8 @@
     <MESSAGE value="Added email and password backend validation" />
     <MESSAGE value="Added theme style &#10;TODO navba logotip" />
     <MESSAGE value="Added logo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added logo" />
+    <MESSAGE value="Addd button style" />
+    <option name="LAST_COMMIT_MESSAGE" value="Addd button style" />
   </component>
   <component name="WindowStateProjectService">
     <state x="667" y="162" key="#PHP" timestamp="1604403165445">
@@ -245,9 +251,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1604729173037" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604866775836">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604867640257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1604866775836" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1604867640257" />
   </component>
 </project>
