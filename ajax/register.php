@@ -39,7 +39,7 @@ define('__CONFIG__', true);
             $addUser->bindParam(':password',$password, PDO::PARAM_STR);
             $addUser->execute();
 
-            $return['redirect'] = '/komandinis/index.php?message=welcome';
+            $return['redirect'] = '/index.php?message=welcome';
         }
 
         echo json_encode($return,JSON_PRETTY_PRINT);

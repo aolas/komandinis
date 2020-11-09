@@ -79,7 +79,7 @@ $doc.on("submit", "form.js-register",function(event){
 
     $.ajax({
         type:'POST',
-        url:'/komandinis/ajax/register.php',
+        url:'/ajax/register.php',
         data:data,
         dataType:'json',
         async:true
