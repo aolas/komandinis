@@ -12,13 +12,12 @@ class DB {
 
         try {
 
-            self::$con = new PDO( 'mysql:charset=utf8mb4;host=localhost;port=3306;dbname=page_db', 'root', 'UP1HKsAMV9lTfAP4' );
+            self::$con = new PDO( 'mysql:charset=utf8mb4;host=localhost;port=3306;dbname=page_db', 'root', 'UP1HKsAMV9lTfA4' );
             self::$con->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
             self::$con->setAttribute( PDO::ATTR_PERSISTENT, false );
 
         } catch (PDOException $e) {
-            echo $e;
-            echo "Could not connect to database."; exit;
+             exit;
         }
 
     }
