@@ -10,15 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a919ecad-3fac-438d-a488-ecf4699eb25e" name="Default Changelist" comment="fixed bugs">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/registration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/DB.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/DB.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/head.php" afterDir="false" />
-    </list>
+    <list default="true" id="a919ecad-3fac-438d-a488-ecf4699eb25e" name="Default Changelist" comment="Change 'display_errors' to 'Off'" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,7 +96,7 @@
       <workItem from="1604866937696" duration="1774000" />
       <workItem from="1604902765129" duration="922000" />
       <workItem from="1604911479826" duration="4549000" />
-      <workItem from="1605618931672" duration="2444000" />
+      <workItem from="1605618931672" duration="2752000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1604403453537</created>
@@ -211,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604911970844</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Change 'display_errors' to 'Off'">
+      <created>1605622076984</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1605622076984</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +241,8 @@
     <MESSAGE value="Addd button style" />
     <MESSAGE value="Changed password help message" />
     <MESSAGE value="fixed bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed bugs" />
+    <MESSAGE value="Change 'display_errors' to 'Off'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change 'display_errors' to 'Off'" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Deployment" timestamp="1605619218967">
@@ -301,9 +301,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1605619170550" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604920368711">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605622083796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1604920368711" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1605622083796" />
   </component>
 </project>
